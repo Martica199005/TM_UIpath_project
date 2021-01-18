@@ -1,6 +1,7 @@
 # TM_UIpath_project
 
-All the versions of the robots ( ReadExcel and CheckAddress--vx) until the version 4 included are made to read only a single kind of Excel.
+The Uipath.zip contains 2 robots  ReadExcel and CheckAddress.
+All the versions of the robot CheckAddress (CheckAddress--vx) until the version 4 included work together with the Read Excel bot which reads only a single kind of Excel.
 The robot ReadExcel reads the Excel and add each line to a queue called CheckAddressQueue. Each queue item has the following features:
 Address, City, State, Zip, Error_Address, RowNumber
 
