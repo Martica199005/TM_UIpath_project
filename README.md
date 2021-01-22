@@ -8,8 +8,8 @@ Address, City, State, Zip, Error_Address, RowNumber
 When all the excel rows are added to the queue, the other robot , CheckAddress, can insert each item of the queue to the website ( the URL is in the Config file).
 For each queue item inserted in the web site, the robot writes the result founded in the same Excel at the column K which is the Status.
 
-The version 5 is a new version of the two robots:
-ReadExcel is able to read another kind of Excel and CheckAddres can insert all the data in the web sites.
+The new version of CheckAddres can be found in the Uipath2.zip:
+This zip contains a new ReadExcel bot which is able to read another kind of Excel and CheckAddres can insert all the data in the web sites.
 
 Issue with Uipath: Add Queue Item activity - The operation has timed out
 
@@ -18,6 +18,8 @@ Maybe the solution is downgrading your Uipath.System.Activities package to versi
 
 For the moment I added queue items with rowNumber<14340
 
+The ReadExcel--v2.zip contains the unified process ReadExcel which is able to read both kind of excel files ( the old one and the new one) . 
+It is the dispacher process which adds the items to the queue "CheckAddressQueue" and the performer process which puts the items in the website is the CheckAddress robot which can be founded in the Uipath2.zip. 
 
 other project:
 see https://www.youtube.com/watch?v=-osy_nkpmFc for captha
