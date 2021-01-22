@@ -22,5 +22,5 @@ The ReadExcel--v2.zip contains the unified process ReadExcel which is able to re
 It is the dispacher process which adds the items to the queue "CheckAddressQueue" and the performer process which puts the items in the website is the CheckAddress robot which can be founded in the Uipath2.zip. 
 This version of CheckAddress has another difference: in the Config file you can specify the sheet of the excel to write.
 
-other project:
-see https://www.youtube.com/watch?v=-osy_nkpmFc for captha
+
+
