@@ -23,4 +23,8 @@ It is the dispatcher process which adds the items to the queue "CheckAddressQueu
 This version of CheckAddress has another difference: in the Config file you can specify the sheet of the excel to write.
 
 
+In ReadExcel--v2.2.zip I just added a comment for the catch in try catch activity.
+In CheckAddress-v5.2 there are custom exception handling ( also for get app credentials) and trim for row_number and house variables.
+
+
 
