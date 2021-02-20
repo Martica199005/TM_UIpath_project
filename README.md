@@ -27,4 +27,4 @@ In ReadExcel--v2.2.zip I just added a comment for the catch in try catch activit
 In CheckAddress-v5.2 there are custom exception handling ( also for get app credentials) and trim for row_number and house variables.
 
 
-
+I made a modification for ReadExcel--v2.2.zip ( still I don't upload it here) to make it run with an unattended robot. I put the assets excel_path and sheet_name.
