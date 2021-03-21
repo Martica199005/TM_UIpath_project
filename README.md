@@ -29,3 +29,6 @@ In CheckAddress-v5.2 there are custom exception handling ( also for get app cred
 
 I made a modification for ReadExcel--v2.2.zip ( still I don't upload it here) to make it run with an unattended robot. I put the assets excel_path and sheet_name.
  Checkaddress_bot.zip is the last version for both the robots for the moment.
+
+Checkaddress_bots_new.zip: new version for readexcel and checkaddress bots which can read another type of excel. Email trigger bot is inside the folder but still don't implemented in ReadExcelv4, Checkaddressv5.4 has commented the email send workflow. I've deleted some of the last version od the bots which aren't used anymore.
+ Checkaddressv5.4 doesn't get stuck when the page changes or is closed.
