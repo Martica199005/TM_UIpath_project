@@ -34,3 +34,4 @@ Checkaddress_bots_new.zip: new version for readexcel and checkaddress bots which
  Checkaddressv5.4 doesn't get stuck when the page changes or is closed. ( Todo: upload the version with all ToUpper() )
  
  New_checkaddress_bots_mailtrigger_new.zip contains new version for both readexcelv4 with and without trigger, and new fix for checkaddress bot: the updated xaml are in the folder for_checkaddress: the last version pasted the addresses in the webpage in a wrong way
+-Checkaddress_partners.unifi is a new bot which does the same as Checkaddress: captcha get text is implemented
