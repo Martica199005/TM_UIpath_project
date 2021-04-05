@@ -32,3 +32,5 @@ I made a modification for ReadExcel--v2.2.zip ( still I don't upload it here) to
 
 Checkaddress_bots_new.zip: new version for readexcel and checkaddress bots which can read another type of excel. Email trigger bot is inside the folder but still don't implemented in ReadExcelv4, Checkaddressv5.4 has commented the email send workflow. I've deleted some of the last version od the bots which aren't used anymore.
  Checkaddressv5.4 doesn't get stuck when the page changes or is closed. ( Todo: upload the version with all ToUpper() )
+ 
+ New_checkaddress_bots_mailtrigger_new.zip contains new version for both readexcelv4 with and without trigger, and new fix for checkaddress bot: the updated xaml are in the folder for_checkaddress: the last version pasted the addresses in the webpage in a wrong way
