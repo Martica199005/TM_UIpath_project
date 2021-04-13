@@ -35,3 +35,8 @@ Checkaddress_bots_new.zip: new version for readexcel and checkaddress bots which
  
  New_checkaddress_bots_mailtrigger_new.zip contains new version for both readexcelv4 with and without trigger, and new fix for checkaddress bot: the updated xaml are in the folder for_checkaddress: the last version pasted the addresses in the webpage in a wrong way
 -Checkaddress_partners.unifi is a new bot which does the same as Checkaddress: captcha get text is implemented
+
+Filter bot: 
+The bot will read Sheet1 and email address to be send is email1, email2, email3.
+Once the data run and complete, it will filter which one is addressable, then copy it and paste it 
+into email and send to the 3 people above. Once email sent, delete the item which sent via email
